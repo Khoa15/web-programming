@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bai5</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Bai5.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+    <header class="container">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-sm-4 text-center">
+                    <img src="~/imgs/logo2.png"/>
+                </div>
+                <div class="col-sm-4">
+                    <strong>Hà Nội:</strong>
+                    <p>Điện thoại:</p>
+                    <p>Địa chỉ:</p>
+                    <p>Email:</p>
+                </div>
+                <div class="col-sm-4">
+                    <strong>TP.Hồ Chí Minh</strong>
+                        <p>Điện thoại:</p>
+                        <p>Địa chỉ:</p>
+                        <p>Email:</p>
+                </div>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-success mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand bg-light pt-1 pb-1 pr-2 pl-2 rounded" asp-area="" asp-controller="Home" asp-action="Index">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill text-secondary" viewBox="0 0 16 16">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="DangKy">Đăng ký</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="" asp-controller="User" asp-action="DangNhap">Đăng Nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Liên hệ</a>
+                            </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control" placeholder="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="row pb-3">
+            <div class="col-xl-10 col-md-8 col-sm-12">
+                @RenderBody()
+
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-12">
+                <ul class="menu">
+                    <li>Hoa Theo Chủ Đề</li>
+                    <li>
+                        <a>Hoa Sinh Nhật</a>
+                    </li>
+                    <li>
+                        <a>Hoa Khai Trương</a>
+                    </li>
+                    <li>
+                        <a>Lan Đồ Điệp</a>
+                    </li>
+                    <li>
+                        <a>Hoa cưới</a>
+                    </li>
+                    <li>
+                        <a>Hoa chia buồn</a>
+                    </li>
+                    <li>
+                        <a>Quà tặng</a>
+                    </li>
+                    <li>
+                        <a>Trái cây</a>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>Chọn theo giá</li>
+                    <li>
+                        <a>250,000đ trở xuống</a>
+                    </li>
+                    <li>
+                        <a>250,000đ - 400,000đ</a>
+                    </li>
+                    <li>
+                        <a>400,000đ - 600,000đ</a>
+                    </li>
+                    <li>
+                        <a>600,000đ - 900,000đ</a>
+                    </li>
+                    <li>
+                        <a>Trên 1,000,000đ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="container w-auto text-center bg-success text-white">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

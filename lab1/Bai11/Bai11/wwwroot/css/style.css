@@ -1,0 +1,26 @@
+﻿body {
+}
+ul.menu {
+    list-style: none!important;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ul.menu li {
+    padding: 10px;
+}
+
+ul.menu.br li {
+    border-bottom: 1px solid #17A2B7;
+}
+
+ul.menu.br li:last-child{
+    border-bottom: none;
+}
+
+ul.menu li.active {
+    background-color: #17A2B7;
+    font-size: 14pt;
+}

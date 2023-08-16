@@ -1,0 +1,40 @@
+﻿body {}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.bg-success {
+    background-color: #9ACD32 !important;
+}
+
+ul.menu {
+    list-style: none;
+    width: 100%;
+    background-color: #F8F9FA;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: bold;
+    background-color: #9ACD32;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+ul.menu li:has(a) {
+    background-color: transparent;
+    font-weight: unset;
+}
+
+ul.menu li a {
+    color: #0077cc !important;
+    cursor: pointer;
+}
+
+ul.menu li a:hover {
+    text-decoration: underline !important
+}

@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Đăng Nhập";
+}
+<form method="post" class ="bg-light p-3 needs-validation">
+    <h1 class="text-center text-uppercase">Đăng nhập</h1>
+    <div class="mb-3">
+        <label for="email" class="form-label">UserName(email)</label>
+        <input type="email" class="form-control" id="email" name="email">
+        <div class="invalid-feedback">
+            You must enter your username(email)
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+        <div class="invalid-feedback">
+            You must enter your password
+        </div>
+        <p class="text-muted">Password include special character!</p>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" id="remember">
+            <input type="checkbox" value="1" id="remember"/>
+            Remember Password
+        </label>
+    </div>
+    <p class="text-center">
+        <button type="submit" class="btn btn-primary text-uppercase">Đăng nhập</button>
+    </p>
+</form>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+                event.preventDefault();
+            }, false)
+        })
+    })()
+</script>

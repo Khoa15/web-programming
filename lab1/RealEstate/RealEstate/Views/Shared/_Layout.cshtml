@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RealEstate</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RealEstate.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container d-flex align-items-end">
+            <h1>Real Estate</h1>
+            <h3 class="text-secondary">Company</h3>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-night bg-success">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Support">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid text-white" style="background: linear-gradient(85deg, #0B7AE5 80%, #0240CF)">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-12 pt-5" style="background: linear-gradient(45deg, #165FAF, #0B7AE5);">
+                            <div class="container">
+                                <h1 class="text-uppercase">Welcome to our company</h1>
+                                <p class="text-uppercase text-dark">we have the best effers</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="container">
+                                <strong>What is Lorem Ipsum?</strong>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 position-relative">
+                    <img src="~/imgs/logo.jpg" class="position-absolute bottom-0 " height="450" />
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center">This is @RenderBody()</h1>
+    </main>
+
+    <footer class="border-top footer bg-secondary">
+        <div class="container text-center">
+            <p class="mb-0">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                |
+                <a asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                |
+                <a asp-area="" asp-controller="Home" asp-action="Services">Services</a>
+                |
+                <a asp-area="" asp-controller="Home" asp-action="Index">News & Events</a>
+                |
+                <a asp-area="" asp-controller="Home" asp-action="Support">Support</a>
+                |
+                <a asp-area="" asp-controller="Home" asp-action="Contact">Contacts</a>
+            </p>
+            <p class="mb-0">Copyright &copy; Your company Name | Designed By <a>YenNguyen</a></p>
+            <p class="mb-0">Support by <a>Fit.huit.edu.vn</a></p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
