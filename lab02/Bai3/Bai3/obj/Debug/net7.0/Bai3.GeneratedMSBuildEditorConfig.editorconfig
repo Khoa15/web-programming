@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bai3
 build_property.RootNamespace = Bai3
-build_property.ProjectDir = C:\Users\nguye\OneDrive\Documents\School\web-programming\lab02\Bai3\Bai3\
+build_property.ProjectDir = D:\Programming\Learning\web-programming\lab02\Bai3\Bai3\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nguye\OneDrive\Documents\School\web-programming\lab02\Bai3\Bai3
+build_property.MSBuildProjectDirectory = D:\Programming\Learning\web-programming\lab02\Bai3\Bai3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Book/Create.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Book/Delete.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Book/Details.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Book/Edit.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Book/Index.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Home/Index.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Home/Privacy.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Producer/Create.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Producer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Producer/Delete.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Producer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Producer/Details.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Producer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Producer/Edit.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Producer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Producer/Index.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Producer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Shared/Error.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Type/Create.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Type/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Type/Delete.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Type/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Type/Details.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Type/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Type/Edit.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Type/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Type/Index.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Type/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/_ViewImports.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/_ViewStart.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nguye/OneDrive/Documents/School/web-programming/lab02/Bai3/Bai3/Views/Shared/_Layout.cshtml]
+[D:/Programming/Learning/web-programming/lab02/Bai3/Bai3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6ant2m4bdd

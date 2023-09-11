@@ -30,6 +30,15 @@ namespace Bai3.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("IdProducer")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
                     b.Property<string>("ProducerId")
                         .HasColumnType("nvarchar(450)");
 
