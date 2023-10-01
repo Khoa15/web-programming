@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "MHViewBagList";
+}
+<h2>MHViewBagList</h2>
+<ul>
+@foreach(var x in ViewBag.Countries)
+            {
+    <li>@x.Name</li>
+            }
+</ul>
