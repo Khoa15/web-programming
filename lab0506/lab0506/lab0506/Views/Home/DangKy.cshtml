@@ -4,9 +4,9 @@
 @{
 }
 @model ThanhVienModel
-<form method="post">
-
-    <h2>Đăng ký thành viên</h2>
+<form method="post" class="m-auto w-50">
+    <p>Tổng số thành viên: @ViewBag.count</p>
+    <h2 class="text-center text-danger">Đăng ký thành viên</h2>
     <table>
         <tr>
             <td>Chọn tên hiển thị</td>
@@ -38,7 +38,7 @@
                 <p>
                     Hãy viết tên nước ta kèm theo ngày Quốc Khánh
                 </p>
-                <input type="password" />
+                <input type="text" />
             </td>
         </tr>
         <tr>
@@ -55,9 +55,9 @@
                 <label for="a-email">
                     <input type="checkbox" id="a-email" />
                     Nhận email từ ban Quan trị
-                </label>
+                </label><br />
                 <label for="a-policy">
-                    <input type="checkbox" id="a-policy" />
+                    <input type="checkbox" id="a-policy" required />
                     Tôi đã đọc và đồng ý các điều khoản
                 </label>
                 <button>Button</button>

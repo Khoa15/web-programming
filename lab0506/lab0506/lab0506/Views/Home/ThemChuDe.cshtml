@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model ChuDeModel
+
+<form class="row" method="post">
+    <h2 class="text-center text-danger">Thêm chủ đề</h2>
+    <div class="m-auto w-25">
+        <div class="input-group">
+            <input asp-for="Name" class="form-control" />
+            <input type="submit" class="btn btn-primary" />
+        </div>
+        @if (Convert.ToInt16(ViewData["status"]) > 0)
+        {
+            <p class="text-success">Thành công!</p>
+        }else if(ViewData["status"] != null)
+        {
+            <p class="text-danger">Thất bại! Hãy đổi tên khác</p>
+        }
+    </div>
+</form>

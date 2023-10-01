@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\OneDrive - Ho Chi Minh city University of Food Industry\\HUIT(HUFI)\\HK5_2023_2024\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj": {}
+    "D:\\Programming\\Learning\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\OneDrive - Ho Chi Minh city University of Food Industry\\HUIT(HUFI)\\HK5_2023_2024\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj": {
+    "D:\\Programming\\Learning\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive - Ho Chi Minh city University of Food Industry\\HUIT(HUFI)\\HK5_2023_2024\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj",
+        "projectUniqueName": "D:\\Programming\\Learning\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj",
         "projectName": "lab0506",
-        "projectPath": "C:\\Users\\nguye\\OneDrive - Ho Chi Minh city University of Food Industry\\HUIT(HUFI)\\HK5_2023_2024\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive - Ho Chi Minh city University of Food Industry\\HUIT(HUFI)\\HK5_2023_2024\\web-programming\\lab0506\\lab0506\\lab0506\\obj\\",
+        "projectPath": "D:\\Programming\\Learning\\web-programming\\lab0506\\lab0506\\lab0506\\lab0506.csproj",
+        "packagesPath": "C:\\Users\\Khoa\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Learning\\web-programming\\lab0506\\lab0506\\lab0506\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Tools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

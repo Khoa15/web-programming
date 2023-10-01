@@ -1,8 +1,12 @@
-﻿namespace lab0506.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace lab0506.Models
 {
     public class ChuDeModel
     {
+        [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
         public ChuDeModel()
         {
