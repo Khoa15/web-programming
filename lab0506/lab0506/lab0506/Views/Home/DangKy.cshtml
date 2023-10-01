@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ThanhVienModel
+<form method="post">
+
+    <h2>Đăng ký thành viên</h2>
+    <table>
+        <tr>
+            <td>Chọn tên hiển thị</td>
+            <td>
+                <input asp-for="Ten" value="NghienDo" />
+            </td>
+        </tr>
+        <tr>
+            <td>Email của bạn</td>
+            <td>
+                <input asp-for="Email" value="123@gmail.com" />
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td>
+                <input asp-for="MatKhau" value="123" />
+            </td>
+        </tr>
+        <tr>
+            <td>Nhập lại mật khẩu</td>
+            <td>
+                <input asp-for="NLMatKhau" value="123" />
+            </td>
+        </tr>
+        <tr>
+            <td>Trả lời câu hỏi</td>
+            <td>
+                <p>
+                    Hãy viết tên nước ta kèm theo ngày Quốc Khánh
+                </p>
+                <input type="password" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <hr />
+            </td>
+            <td>
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <label for="a-email">
+                    <input type="checkbox" id="a-email" />
+                    Nhận email từ ban Quan trị
+                </label>
+                <label for="a-policy">
+                    <input type="checkbox" id="a-policy" />
+                    Tôi đã đọc và đồng ý các điều khoản
+                </label>
+                <button>Button</button>
+            </td>
+        </tr>
+    </table>
+</form>
